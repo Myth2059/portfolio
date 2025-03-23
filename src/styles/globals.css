@@ -1,0 +1,12 @@
+@tailwind utilities;
+@plugin "daisyui"{
+  themes:autumn,halloween ;
+};
+
+@plugin "daisyui/theme"{
+  name:"halloween";
+  --depth: 1;
+  --noise: 1;
+}
+
+
